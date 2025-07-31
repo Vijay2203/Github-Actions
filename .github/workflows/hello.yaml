@@ -1,4 +1,4 @@
-name: Hello
+hname: Hello
 on: push
 
 jobs: 
@@ -7,4 +7,4 @@ jobs:
     
     steps: 
     - name: Print hello world
-      run: "Hello World"
+      run: echo "Hello World"
